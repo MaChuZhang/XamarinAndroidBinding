@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Disc.IDiskCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Disc.Impl.BaseDiskCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Disc.Impl.Ext.DiskLruCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Disc.Impl.Ext.LruDiskCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Disc.Impl.LimitedAgeDiskCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Disc.Impl.UnlimitedDiskCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Disc.Naming.HashCodeFileNameGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Disc.Naming.IFileNameGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Disc.Naming.Md5FileNameGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Memory.BaseMemoryCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Memory.IMemoryCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Memory.Impl.FIFOLimitedMemoryCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Memory.Impl.FuzzyKeyMemoryCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Memory.Impl.LargestLimitedMemoryCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Memory.Impl.LimitedAgeMemoryCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Memory.Impl.LRULimitedMemoryCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Memory.Impl.LruMemoryCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Memory.Impl.UsingFreqLimitedMemoryCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Memory.Impl.WeakMemoryCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Cache.Memory.LimitedMemoryCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.ContentLengthInputStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.Deque.IBlockingDeque.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.Deque.IDeque.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.Deque.LIFOLinkedBlockingDeque.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.Deque.LinkedBlockingDeque.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.FailReason.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.FlushedInputStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.ImageScaleType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.ImageSize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.LoadedFrom.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.QueueProcessingType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Assist.ViewScaleType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Decode.BaseImageDecoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Decode.IImageDecoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Decode.ImageDecodingInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.DefaultConfigurationFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Display.FadeInBitmapDisplayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Display.IBitmapDisplayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Display.RoundedBitmapDisplayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Display.RoundedVignetteBitmapDisplayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Display.SimpleBitmapDisplayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.DisplayImageOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Download.BaseImageDownloader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Download.IImageDownloader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Imageaware.IImageAware.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Imageaware.ImageViewAware.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Imageaware.NonViewAware.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Imageaware.ViewAware.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.ImageLoader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.ImageLoaderConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Listener.IImageLoadingListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Listener.IImageLoadingProgressListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Listener.PauseOnScrollListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Listener.SimpleImageLoadingListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Core.Process.IBitmapProcessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Utils.DiskCacheUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Utils.ImageSizeUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Utils.IoUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Utils.L.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Utils.MemoryCacheUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Nostra13.Universalimageloader.Utils.StorageUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

@@ -1,0 +1,13 @@
+com.umeng.social.tool.ComposeTool$ComposeDirection:Com.Umeng.Social.Tool:ComposeTool.ComposeDirection
+com.umeng.socialize.bean.RequestType:Com.Umeng.Socialize.Bean:RequestType
+com.umeng.socialize.bean.SHARE_MEDIA:Com.Umeng.Socialize.Bean:SHARE_MEDIA
+com.umeng.socialize.bean.UmengErrorCode:Com.Umeng.Socialize.Bean:UmengErrorCode
+com.umeng.socialize.media.UMImage$CompressStyle:Com.Umeng.Socialize.Media:UMImage.CompressStyle
+com.umeng.socialize.media.UMediaObject$MediaType:Com.Umeng.Socialize.Media:UMediaObject.MediaType
+com.umeng.socialize.net.base.SocializeRequest$FILE_TYPE:Com.Umeng.Socialize.Net.Base:SocializeRequest.FILE_TYPE
+com.umeng.socialize.net.stats.AuthStatsRequest$AuthLifecycle:Com.Umeng.Socialize.Net.Stats:AuthStatsRequest.AuthLifecycle
+com.umeng.socialize.net.stats.ShareStatsRequest$ShareLifecycle:Com.Umeng.Socialize.Net.Stats:ShareStatsRequest.ShareLifecycle
+com.umeng.socialize.net.stats.UserInfoStatsRequest$GetUserInfoLifecycle:Com.Umeng.Socialize.Net.Stats:UserInfoStatsRequest.GetUserInfoLifecycle
+com.umeng.socialize.net.utils.URequest$MIME:Com.Umeng.Socialize.Net.Utils:URequest.MIME
+com.umeng.socialize.net.utils.URequest$PostStyle:Com.Umeng.Socialize.Net.Utils:URequest.PostStyle
+com.umeng.socialize.net.utils.URequest$RequestMethod:Com.Umeng.Socialize.Net.Utils:URequest.RequestMethod
